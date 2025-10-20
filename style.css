@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00e0ff;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #a8dadc;
+  margin-top: 0.5rem;
+}
+
+.vitrine {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1100px;
+  margin-bottom: 3rem;
+}
+
+.produto {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 224, 255, 0.5);
+}
+
+.produto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.produto h2 {
+  margin: 1rem 0 0.5rem;
+  color: #00e0ff;
+}
+
+.produto p {
+  font-size: 0.95rem;
+  color: #cfd8dc;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: #00e0ff;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00b4cc;
+  color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .vitrine {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .produto {
+    width: 90%;
+  }
+}
+
+   
