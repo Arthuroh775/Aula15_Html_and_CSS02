@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1a1a;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+h1{
+    font-size: 56px;
+    color: #00ffff;
+    padding: 40px 0;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 0 10px #00ffff
+}
+p{
+    color: #f0f0f0;
+    font-size: 18px;
+    text-align: center;
+    margin: 45px;
+    margin-right: 400px;
+}
+.Produto01{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    margin: 30px;
+    background-color: black;
+    border-radius: 30px;
+}
+.Produto02{
+    object-fit: cover;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    background-color: black;
+    border-radius: 30px;
+}
+.Produto03{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    background-color: black;
+    border-radius: 30px;
+}
+.apresentacao{
+p{
+    margin-left: 400px;
+}
+}
+button{
+   background-color: #00ffaa; /* Ex: Verde neon */
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
